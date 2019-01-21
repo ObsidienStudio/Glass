@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Martin GASQUE</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+
+<body>
+	<div id="menu">
+		<h1>Martin Gasque</h1>
+		<div class = button><button id="button1" onclick="Display(event, 'profil')"><h1>Profil</h1></button> </div>
+		<div class = button> <button id="button2" onclick="Display(event, 'experience')"><h1>Experience</h1></button> </div>
+		<div class = button> <button id="button3" onclick="Display(event, 'contact')"><h1>Contact</h1></button> </div>
+	</div>
+
+
+	<div id="profil" class="hide">
+		<div id="profil2">
+			<h2>Martin GASQUE</h2>
+			<div id="bar"></div>
+			<h3>Developpeur passionné, j'associe le web et la communication pour créer des opportunitées graphique et technique uniques.</h3>
+
+		</div>
+	</div>
+
+
+
+
+	<div class="hide" id="experience">
+		<div class="megawrapper">
+			<div class="bar2">
+				<h2 style="width: 50%;">Communication</h2>
+				<h2 style="width: 50%;">Developpement</h2>
+			</div>
+			<div class="line">
+				<div class="wrapper">
+					<img class="img" src="gallerie/support.svg">
+					<div class="forma">
+							<li>BTS Communication</li><h4>Passé à l'estacom de bourges, j'ai appris a gérer une communication externe et épauler les commerciaux dans leur vente d'outil de communication</h4></br>
+							<li>Freelance</li><h4>J'ai déjà réaliser plusieurs communications : une externe pour un salon de tatouage qui cherchait à booster sa notoriété</h4></br>
+							<li>Stages divers en régie publicitaire</li><h4>Que ce soit en association ou en entreprise, j'ai effectué mes stages en régie publicitaire. J'avais alors pour charge de créer des supports de communication (site web, affiche...) et de contacter les interessés par téléphone. J'ai su donc développé des talents de vendeur en connaissant les enjeux du travail en entreprise</h4></br>
+							<li>Assistance graphique</li><h4>Je suis souvent sollicité par mes connaissances pour réaliser des graphismes à l'aide des outils de PAO</h4>
+					</div>
+				</div>
+				<div class="wrapper"">
+					<img class="img" src="gallerie/web-design.svg">
+					<div class="forma">
+						<li>Developpement site automatisé pour jdr</li><h4>Etant grand joueur de jeu de rôle, je tente de créer une page internet locale sur laquelle les utilisateurs( et donc joueurs) pourront modifier directement les valeurs grâce a un systeme de base de donnée</h4></br>
+						<li>Formation CEFIM en cours</li><h4>J'y apprends à developper en web, javascript et python, des languages essentiels pour le web</h4></br>
+						<li>Picsine - 42</li><h4>L'experience qui m'a donné envie de faire du code ma passion, j'ai passé un mois dans une école en internat à coder près de 13h/jour, sans professeur par simple échange de savoir entre les élèves. J'ai pu comprendre les fonctionnements du language C. Il est possible que je retourne dans cette école afin de me perfectionner</h4></br>
+						<li>Freelance</li><h4>J'ai déjà réaliser plusieurs communications dont une externe pour un salon de tatouage qui cherchait à booster sa notoriété</h4>
+					</div>
+				</div>
+			</div>
+			<div id="carousel" class="bar2">
+				<a href="gallerie/Carousel/A.png" target = "_blank"><img src="gallerie/Carousel/A.png"></a>
+				<a href="gallerie/Carousel/B.png" target = "_blank"><img src="gallerie/Carousel/B.png"></a>
+				<a href="gallerie/Carousel/C.png" target = "_blank"><img src="gallerie/Carousel/C.png"></a>
+				<a href="gallerie/Carousel/D.png" target = "_blank"><img src="gallerie/Carousel/D.png"></a>
+				<a href="gallerie/Carousel/E.jpg" target = "_blank"><img src="gallerie/Carousel/E.jpg"></a>
+			</div>
+			<img src="gallerie/parcours.svg">
+		</div>
+	</div>
+
+	<div class="hide" id="contact">
+		<div class="megawrapper">
+		<div class="bar3">
+			<h2>Appelez moi !...</h2>
+		</div>
+
+		<div class="wrapper">
+			<h3>Je suis disponible de 9h à 19h alors n'hesitez pas !</h3>
+			<h1>0767888499</h1>
+		</div>
+
+		<div class="bar3">
+			<h2>Ou écrivez moi !</h2>
+		</div>
+
+		<div class="wrapper">
+			<h3>N'hesitez pas à me dire ce que vous pensez de mon site</h3>
+			<form action="/email.xlsx" method="post">
+				<div class="line">
+					<label for="name">
+						<h4>Votre patronyme pour vous reconnaitre :</h4>
+					</label>
+					<input type="text" name="user_name" placeholder="La meilleure entreprise pour un stage">
+				</div>
+				<div class="line">
+					<label for="mail">
+						<h4>Votre e-mail pour que je puisse vous recontacter :</h4>
+					</label>
+					<input type="email" name="user_email" placeholder="exemple@monentreprise.com">
+				</div>
+				<div class="line">
+					<label for="mail"><h4>Votre message :</h4></label>
+					<textarea id="msg" name="user_msg" placeholder="J'écris des tas de belles choses à ce Martin si sympathique."></textarea>
+				</div>
+			</form>
+		</div>
+
+		<div class="bar3">
+			<h2> Disponible dans la ville de Tours, je reste mobile aux villes alentours </h2>
+		</div>
+
+		<div class="wrapper">
+			<h3> Habitant au centre-ville de Tours, je n'aurais aucun problème d'acessibilité pour venir vous rencontrer</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61118.06607766775!2d0.7010581918072988!3d47.39121465397229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd5b34a979a55%3A0x40dc8d705388430!2sTours!5e0!3m2!1sfr!2sfr!4v1548088648975" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+
+<footer class="hide">
+	<h3>Contact</h3>
+	<h3>Site publié en 2019 grâce à GitHub</h3>
+</footer>

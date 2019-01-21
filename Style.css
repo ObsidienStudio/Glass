@@ -1,0 +1,276 @@
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@font-face {
+	font-family: "CODEb";
+	font-style: bold;
+	src: url('font/CODEBold.otf');
+}
+
+
+@font-face {
+	font-family: "CODE";
+	font-style: normal;
+	src: url('font/CODELight.otf');
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('font/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Robotoi";
+	font-style: italic;
+	src: url('font/Roboto-italic.ttf');
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: bold;
+	src: url('font/Roboto-bold.ttf');
+}
+
+@font-face {
+	font-family: "Holiday";
+	font-style: bold;
+	src: url('font/HolidayFree.otf');
+}
+
+*{
+	margin: 0px;
+	margin-left: 1%;
+	margin-right: 3%;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #f5f5f5;
+}
+
+li{
+	font-family: "CODEb", Helvetica, sans-serif;
+	font-size:150%;
+	padding-top: 3%;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+
+h1{
+	font-family: "Holiday", sans-serif;
+	font-size: 350%;
+}
+
+h2{
+	font-family: "CODEb", Helvetica, sans-serif;
+	font-size: 250%;
+}
+
+h3{
+	font-family: "CODEb", Helvetica, sans-serif;
+	font-size: 125%;
+	margin-bottom: 2%;
+}
+
+
+h4{
+	font-family: "Robotoi", Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: thin;
+}
+
+button{
+	margin-top: 5%;
+	height: 85%;
+	border : none;
+	width: 100%;
+}
+
+input{
+	width: 50%;
+}
+
+label{
+	width: 45%;
+}
+
+textarea{
+	width: 50%;
+	height: 150px;
+}
+
+button:hover{
+	transition-duration: 0.3s;
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+
+/*GENERAL*/
+
+.hide{
+	animation: fadeEffect 0.5s;
+	display: none;}
+
+.bar2{
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	background-color: #ab987a;
+	justify-content: space-around;
+	padding-top: 1%;
+	padding-bottom:1%;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom:  3%;
+}
+
+.megawrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;	
+	width: 100%;
+	background-size: contain;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	width: 50%;
+	margin: 0px;
+}
+
+.button{
+	width: 25%;
+	margin-left: 1%;
+}
+
+.line{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 4%;
+}
+
+#menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-width: 95%;
+	justify-content: space-around;
+}
+
+#button1{
+	background-color:  #0f1626 ;
+	border: none;
+}
+
+#button2{
+	background-color:  #ab987a ;
+}
+
+#button3{
+	background-color:  #ff533D ;
+}
+
+/*PROFIL*/
+
+#profil2{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	background-image: url("gallerie/sea1.jpg");
+	background-size: cover;
+	text-align: center;
+	padding-top: 350px;
+	padding-bottom: 350px;
+	color: #f5f5f5;
+	letter-spacing: 10px;
+}
+
+#bar{
+	width: 2%;
+	height: 2%;
+	border: 2px solid #f5f5f5;
+	margin-left: 49%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+/*EXPERIENCE*/
+
+
+.img{
+	max-width: 25%;
+	padding: 5%;
+
+}
+
+
+.forma{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color:#f5f5f5;
+	color: black;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	padding: 5%;
+	opacity: 1;
+	line-height: 150%;
+}
+
+#carousel{
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	background-color: #ab987a;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#carousel img{
+	max-height: 200px;
+	max-width: 200px;
+}
+#carousel img:hover{
+	transition-delay: 0.1s;
+	transition-duration: 0.3s;
+	transform: scale(1.2);
+}
+
+/*CONTACT*/
+
+.bar3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom:1%;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom:  3%;
+	border: 2px solid #f5f5f5;
+	color: #f5f5f5;
+	background-color: #0f1626;
+}

@@ -7,4 +7,5 @@ function Display(evt, arg1){
 
 
   document.getElementById(arg1).style.display = "flex";
+  document.getElementById("footer").style.display = "flex";
 }

@@ -65,10 +65,29 @@ body{
 }
 
 footer{
+	margin-left: 1.9%;
+	height: 200px;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #eaeaea;
+}
+
+footer div{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: #f5f5f5;
+	text-align: center;
+}
+
+footer div a{
+	background-image: url(gallerie/haut_page.svg);
+	background-size: cover;
+}
+footer div a:hover{
+	transform: scale(1.2);
 }
 
 li{
@@ -141,7 +160,6 @@ label{
 textarea{
 	width: 50%;
 	height: 150px;
-
 }
 
 

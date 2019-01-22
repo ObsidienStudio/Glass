@@ -66,7 +66,7 @@ body{
 
 footer{
 	margin-left: 1.9%;
-	height: 200px;
+	height: 150px;
 	width: 95%;
 	display: flex;
 	flex-direction: column;
@@ -80,6 +80,9 @@ footer div{
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
+	align-items: center;
+	align-self: center;
+	width: 50%;
 }
 
 footer div a{
@@ -245,14 +248,14 @@ textarea{
 	background-color:  #ab987a ;
 	color: #5C2018;
 	opacity: 1;
-  animation: 3s reverse ease 0s 1 slideInFromRight;
+  animation: 2.3s reverse ease 0s 1 slideInFromRight;
 }
 
 #button3{
 	background-color:  #5C2018;
 	color: #0f1626;
 	opacity: 1;
-  	animation: 4s reverse ease 0s 1 slideInFromRight;
+  	animation: 2.5s reverse ease 0s 1 slideInFromRight;
 }
 
 /*PROFIL*/
@@ -262,7 +265,7 @@ textarea{
 	display: flex;
 	flex-direction: column;
 	width: 95%;
-	background-image: url("gallerie/sea1.jpg");
+	background-image: url("gallerie/space1.jpg");
 	background-size: cover;
 	text-align: center;
 	padding-top: 350px;

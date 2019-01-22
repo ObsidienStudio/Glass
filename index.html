@@ -8,19 +8,21 @@
 </head>
 
 <body>
+	<header>
 	<div id="menu">
-		<h1>Martin Gasque</h1>
-		<div class = button><button id="button1" onclick="Display(event, 'profil')"><h1>Profil</h1></button> </div>
-		<div class = button> <button id="button2" onclick="Display(event, 'experience')"><h1>Experience</h1></button> </div>
-		<div class = button> <button id="button3" onclick="Display(event, 'contact')"><h1>Contact</h1></button> </div>
+		<h1 id="monom">Martin Gasque</h1>
+		<button id="button1" onclick="Display(event, 'profil')"><h1>Profil</h1></button>
+		<button id="button2" onclick="Display(event, 'experience')"><h1>Experience</h1></button>
+		<button id="button3" onclick="Display(event, 'contact')"><h1>Contact</h1></button>
 	</div>
-
-
+</header>
+	<div id="absol"></div>
+	
 	<div id="profil" class="hide">
 		<div id="profil2">
 			<h2>Martin GASQUE</h2>
 			<div id="bar"></div>
-			<h3>Developpeur passionné, j'associe le web et la communication pour créer des opportunitées graphique et technique uniques.</h3>
+			<h3>Developpeur passionné, j'associe le web et la communication pour créer des opportunitées graphiques et techniques uniques.</h3>
 
 		</div>
 	</div>
@@ -38,19 +40,18 @@
 				<div class="wrapper">
 					<img class="img" src="gallerie/support.svg">
 					<div class="forma">
-							<li>BTS Communication</li><h4>Passé à l'estacom de bourges, j'ai appris a gérer une communication externe et épauler les commerciaux dans leur vente d'outil de communication</h4></br>
-							<li>Freelance</li><h4>J'ai déjà réaliser plusieurs communications : une externe pour un salon de tatouage qui cherchait à booster sa notoriété</h4></br>
-							<li>Stages divers en régie publicitaire</li><h4>Que ce soit en association ou en entreprise, j'ai effectué mes stages en régie publicitaire. J'avais alors pour charge de créer des supports de communication (site web, affiche...) et de contacter les interessés par téléphone. J'ai su donc développé des talents de vendeur en connaissant les enjeux du travail en entreprise</h4></br>
-							<li>Assistance graphique</li><h4>Je suis souvent sollicité par mes connaissances pour réaliser des graphismes à l'aide des outils de PAO</h4>
+							<li>BTS Communication</li><h4>Obtenu à l'estacom de Bourges, j'ai appris à gérer une communication externe et à épauler les commerciaux dans leur vente de supports de communication</h4></br>
+							<li>Freelance</li><h4>J'ai réalisé plusieurs communications dont une externe pour un salon de tatouage qui cherchait à booster sa notoriété</h4></br>
+							<li>Stages divers en régie publicitaire</li><h4>En association ou en entreprise, j'ai effectué mes stages en régie publicitaire. J'avais alors pour charge de créer des supports de communication (site web, affiches...) et de contacter les interessés par téléphone. </br>J'ai développé des talents de vendeur en connaissant les enjeux du travail en entreprise</h4></br>
+							<li>Assistance graphique</li><h4>Je suis souvent sollicité par mes connaissances pour réaliser des graphismes à l'aide des outils de PAO (Adobe Photoshop, Illustrator...).</h4>
 					</div>
 				</div>
 				<div class="wrapper"">
 					<img class="img" src="gallerie/web-design.svg">
 					<div class="forma">
-						<li>Developpement site automatisé pour jdr</li><h4>Etant grand joueur de jeu de rôle, je tente de créer une page internet locale sur laquelle les utilisateurs( et donc joueurs) pourront modifier directement les valeurs grâce a un systeme de base de donnée</h4></br>
-						<li>Formation CEFIM en cours</li><h4>J'y apprends à developper en web, javascript et python, des languages essentiels pour le web</h4></br>
-						<li>Picsine - 42</li><h4>L'experience qui m'a donné envie de faire du code ma passion, j'ai passé un mois dans une école en internat à coder près de 13h/jour, sans professeur par simple échange de savoir entre les élèves. J'ai pu comprendre les fonctionnements du language C. Il est possible que je retourne dans cette école afin de me perfectionner</h4></br>
-						<li>Freelance</li><h4>J'ai déjà réaliser plusieurs communications dont une externe pour un salon de tatouage qui cherchait à booster sa notoriété</h4>
+						<li>Developpement site automatisé pour jdr</li><h4>Grand joueur de jeu de rôle, je créer une page internet locale sur laquelle les utilisateurs(et donc joueurs) pourront modifier directement les valeurs grâce à un systeme de base de données</h4></br>
+						<li>Formation CEFIM en cours</li><h4>J'y apprends à developper en web, javascript et python, des langages essentiels pour le web.</h4></br>
+						<li>Piscine - 42</li><h4>L'éxperience qui m'a donné envie de faire du code ma passion, j'ai passé un mois dans une école en internat à coder près de 13h/jour, sans professeur par simple échange de savoir entre les élèves. J'ai pu comprendre les fonctionnements du langage C et la logique informatique en général. J'envisage de retourner dans cette école afin de me perfectionner</h4></br>
 					</div>
 				</div>
 			</div>
@@ -72,7 +73,6 @@
 		</div>
 
 		<div class="wrapper">
-			<h3>Je suis disponible de 9h à 19h alors n'hesitez pas !</h3>
 			<h1>0767888499</h1>
 		</div>
 
@@ -82,6 +82,7 @@
 
 		<div class="wrapper">
 			<h3>N'hesitez pas à me dire ce que vous pensez de mon site</h3>
+			<p></p>
 			<form action="/email.xlsx" method="post">
 				<div class="line">
 					<label for="name">
@@ -107,7 +108,7 @@
 		</div>
 
 		<div class="wrapper">
-			<h3> Habitant au centre-ville de Tours, je n'aurais aucun problème d'acessibilité pour venir vous rencontrer</h3>
+			<h3> Habitant au centre-ville de Tours, je n'aurais aucun problème d'accessibilité pour venir vous rencontrer</h3>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61118.06607766775!2d0.7010581918072988!3d47.39121465397229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd5b34a979a55%3A0x40dc8d705388430!2sTours!5e0!3m2!1sfr!2sfr!4v1548088648975" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>

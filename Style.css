@@ -238,21 +238,21 @@ textarea{
 	background-color:  #0f1626 ;
 	color: #ab987a;
 	opacity: 1;
- 	animation: 2s reverse ease-out 0s 1 slideInFromRight;
+ 	animation: 2s reverse ease 0s 1 slideInFromRight;
 }
 
 #button2{
 	background-color:  #ab987a ;
 	color: #5C2018;
 	opacity: 1;
-  animation: 3s reverse ease-out 0s 1 slideInFromRight;
+  animation: 3s reverse ease 0s 1 slideInFromRight;
 }
 
 #button3{
 	background-color:  #5C2018;
 	color: #0f1626;
 	opacity: 1;
-  	animation: 4s reverse ease-out 0s 1 slideInFromRight;
+  	animation: 4s reverse ease 0s 1 slideInFromRight;
 }
 
 /*PROFIL*/
